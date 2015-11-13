@@ -41,7 +41,7 @@ interface Window {
     /**
      * Variables emitted at build time which contain useful application information.
      */
-    buildVars: JustinCredible.SampleApp.Interfaces.BuildVars;
+    buildVars: Naujoks.Vollibro.Interfaces.BuildVars;
 
     /**
      * Prints a stack trace at the given location.

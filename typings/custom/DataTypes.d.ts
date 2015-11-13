@@ -3,7 +3,7 @@
  * that are used on the client-side (eg as parameters or responses to/from
  * AJAX calls).
  */
-declare module JustinCredible.SampleApp.DataTypes {
+declare module Naujoks.Vollibro.DataTypes {
 
     interface TokenResponse {
         expires: number;

@@ -1,4 +1,4 @@
-﻿module JustinCredible.SampleApp.Directives {
+﻿module Naujoks.Vollibro.Directives {
 
     //#region TypeScript Declarations
 

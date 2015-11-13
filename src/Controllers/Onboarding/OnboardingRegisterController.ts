@@ -1,4 +1,4 @@
-module JustinCredible.SampleApp.Controllers {
+module Naujoks.Vollibro.Controllers {
 
     export class OnboardingRegisterController extends BaseController<ViewModels.OnboardingRegisterViewModel> {
 

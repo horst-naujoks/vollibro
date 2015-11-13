@@ -1,5 +1,5 @@
 
-module JustinCredible.SampleApp.Application {
+module Naujoks.Vollibro.Application {
 
     //#region Variables
 
@@ -59,11 +59,11 @@ module JustinCredible.SampleApp.Application {
         window.onerror = window_onerror;
 
         versionInfo = {
-            applicationName: "Sample App",
-            copyrightInfoUrl: "https://github.com/Justin-Credible/Ionic-TypeScript-Starter/blob/master/LICENSE",
-            websiteUrl: "http://www.justin-credible.net",
-            githubUrl: "https://github.com/Justin-Credible",
-            email: "justin.unterreiner@gmail.com",
+            applicationName: "Vollibro",
+            copyrightInfoUrl: "https://github.com/horst-naujoks/vollibro/blob/master/LICENSE",
+            websiteUrl: "https://github.com/horst-naujoks/vollibro",
+            githubUrl: "https://github.com/horst-naujoks/vollibro",
+            email: "horst@naujoks.ch",
             majorVersion: window.buildVars.majorVersion,
             minorVersion: window.buildVars.minorVersion,
             buildVersion: window.buildVars.buildVersion,
@@ -73,7 +73,7 @@ module JustinCredible.SampleApp.Application {
 
         // Define the top level Angular module for the application.
         // Here we also specify the Angular modules this module depends upon.
-        ngModule = angular.module("JustinCredible.SampleApp.Application", ["ui.router", "ionic", "ngMockE2E"]);
+        ngModule = angular.module("Naujoks.Vollibro.Application", ["ui.router", "ionic", "ngMockE2E"]);
 
         // Define our constants.
         ngModule.constant("isRipple", !!(window.parent && window.parent.ripple));

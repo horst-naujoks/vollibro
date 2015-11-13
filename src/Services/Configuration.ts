@@ -1,4 +1,4 @@
-module JustinCredible.SampleApp.Services {
+module Naujoks.Vollibro.Services {
 
     /**
      * Provides a way to easily get/set application configuration.

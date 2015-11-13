@@ -1,4 +1,4 @@
-﻿module JustinCredible.SampleApp.Controllers {
+﻿module Naujoks.Vollibro.Controllers {
 
     export interface ICategoryStateParams {
         categoryNumber: number;

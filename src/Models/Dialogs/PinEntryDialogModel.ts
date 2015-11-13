@@ -1,4 +1,4 @@
-﻿module JustinCredible.SampleApp.Models {
+﻿module Naujoks.Vollibro.Models {
 
     export class PinEntryDialogModel {
         pinToMatch: string;

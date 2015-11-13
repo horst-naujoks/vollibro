@@ -1,4 +1,4 @@
-﻿module JustinCredible.SampleApp.Services {
+﻿module Naujoks.Vollibro.Services {
 
     /**
      * Provides a common set of helper/utility methods for logging errors.

@@ -1,13 +1,13 @@
 {
-  "name": "SampleApp",
+  "name": "Vollibro",
   "version": "1.0.0",
-  "description": "SampleApp: A starter application using Ionic and TypeScript.",
-  "author": "Justin Unterreiner",
+  "description": "Vollibro: ",
+  "author": "Horst Naujoks",
   "license": "MIT",
-  "homepage": "http://www.justin-credible.net/Projects/Ionic-TypeScript-MDHA-Starter",
+  "homepage": "https://github.com/horst-naujoks/vollibro",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Justin-Credible/Ionic-TypeScript-Starter.git"
+    "url": "https://github.com/horst-naujoks/vollibro.git"
   },
   "dependencies": {
     "async": "1.4.2",

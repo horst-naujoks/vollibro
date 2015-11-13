@@ -1,4 +1,4 @@
-﻿module JustinCredible.SampleApp.Models {
+﻿module Naujoks.Vollibro.Models {
 
     /**
      * Used to specify options for a dialog.

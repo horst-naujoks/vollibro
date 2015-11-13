@@ -1,4 +1,4 @@
-﻿module JustinCredible.SampleApp.Controllers {
+﻿module Naujoks.Vollibro.Controllers {
 
     export class CloudSyncController extends BaseController<ViewModels.CloudSyncViewModel> {
 

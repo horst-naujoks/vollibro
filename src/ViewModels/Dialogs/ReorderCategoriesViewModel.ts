@@ -1,4 +1,4 @@
-﻿module JustinCredible.SampleApp.ViewModels {
+﻿module Naujoks.Vollibro.ViewModels {
 
     export class ReorderCategoriesViewModel {
         public categories: ViewModels.CategoryItemViewModel [];

@@ -1,4 +1,4 @@
-﻿module JustinCredible.SampleApp.Filters {
+﻿module Naujoks.Vollibro.Filters {
 
     /**
      * Formats numbers greater than one thousand to include the K suffix.

@@ -1,4 +1,4 @@
-﻿module JustinCredible.SampleApp.Directives {
+﻿module Naujoks.Vollibro.Directives {
 
     /**
      * Describes what our element directive objects look like.

@@ -1,4 +1,4 @@
-module JustinCredible.SampleApp.Directives {
+module Naujoks.Vollibro.Directives {
 
     /**
      * A directive for handling an element's onload event (eg an image tag).

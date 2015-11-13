@@ -1,5 +1,5 @@
 
-module JustinCredible.SampleApp {
+module Naujoks.Vollibro {
 
     /**
      * Used to define all of the client-side routes for the application.

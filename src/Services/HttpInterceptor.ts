@@ -1,4 +1,4 @@
-﻿module JustinCredible.SampleApp.Services {
+﻿module Naujoks.Vollibro.Services {
 
     /**
      * This is a custom interceptor for Angular's $httpProvider.

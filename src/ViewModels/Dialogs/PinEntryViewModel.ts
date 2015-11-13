@@ -1,4 +1,4 @@
-﻿module JustinCredible.SampleApp.ViewModels {
+﻿module Naujoks.Vollibro.ViewModels {
 
     export class PinEntryViewModel {
         public pin: string;

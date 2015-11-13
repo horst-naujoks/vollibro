@@ -1,4 +1,4 @@
-﻿module JustinCredible.SampleApp.Controllers {
+﻿module Naujoks.Vollibro.Controllers {
 
     /**
      * This is the base controller that all other controllers should utilize.

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="net.justincredible.sampleapp" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="naujoks.vollibro" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>SampleApp</name>
   <description>
         SampleApp: A starter application using Ionic and TypeScript.
     </description>
-  <author email="justin.unterreiner@gmail.com" href="https://github.com/Justin-Credible/Ionic-TypeScript-Starter">
-      Justin Unterreiner
+  <author email="horst@naujoks.ch" href="https://github.com/horst-naujoks/vollibro">
+      Horst Naujoks
     </author>
   <content src="index.html"/>
   <access origin="*"/>

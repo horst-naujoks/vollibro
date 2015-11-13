@@ -1,4 +1,4 @@
-﻿module JustinCredible.SampleApp.ViewModels {
+﻿module Naujoks.Vollibro.ViewModels {
 
     /**
      * A ViewModel that has no properties. Useful for controllers that

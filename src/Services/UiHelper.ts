@@ -1,4 +1,4 @@
-﻿module JustinCredible.SampleApp.Services {
+﻿module Naujoks.Vollibro.Services {
 
     /**
      * Provides a common set of helper methods for working with the UI.

@@ -1,4 +1,4 @@
-module JustinCredible.SampleApp.Services {
+module Naujoks.Vollibro.Services {
 
     /**
      * Provides mock responses for HTTP requests.
