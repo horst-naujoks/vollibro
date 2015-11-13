@@ -73,7 +73,7 @@ module Naujoks.Vollibro.Application {
 
         // Define the top level Angular module for the application.
         // Here we also specify the Angular modules this module depends upon.
-        ngModule = angular.module("Naujoks.Vollibro.Application", ["ui.router", "ionic", "ngMockE2E"]);
+        ngModule = angular.module("Naujoks.Vollibro.Application", ["ui.router", "ionic", "ngMockE2E", "pascalprecht.translate"]);
 
         // Define our constants.
         ngModule.constant("isRipple", !!(window.parent && window.parent.ripple));
@@ -114,7 +114,7 @@ module Naujoks.Vollibro.Application {
             "$provide",
             "$httpProvider",
             "$compileProvider",
-
+            "$translateProvider",
             // The method we are annotating.
             angular_configure
         ];
@@ -438,7 +438,8 @@ module Naujoks.Vollibro.Application {
         $urlRouterProvider: ng.ui.IUrlRouterProvider,
         $provide: ng.auto.IProvideService,
         $httpProvider: ng.IHttpProvider,
-        $compileProvider: ng.ICompileProvider
+        $compileProvider: ng.ICompileProvider,
+        $translateProvider: ng.translate.ITranslateProvider
         ): void {
 
         // Intercept the default Angular exception handler.
@@ -467,7 +468,13 @@ module Naujoks.Vollibro.Application {
         // network latency so we can see the spinners and loading bars. Useful for demo purposes.
         if (localStorage.getItem("ENABLE_MOCK_HTTP_CALLS") === "true") {
             Services.MockHttpApis.setupMockHttpDelay($provide);
-        }
+        };
+        
+        
+        
+        $translateProvider.translations("en",{"TEST": "bla"});
+        $translateProvider.preferredLanguage("en");
+    
     };
 
     //#endregion

@@ -100,6 +100,9 @@
     },
     "webrtc/MediaStream.d.ts": {
       "commit": "c50b111ded0a3a18b87b5abffea3150d6aca94da"
+    },
+    "angular-translate/angular-translate.d.ts": {
+      "commit": "bfa960ba203e50b5f58ae9606c20905d5e419994"
     }
   }
 }
