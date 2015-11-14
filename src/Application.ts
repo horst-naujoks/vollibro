@@ -470,10 +470,12 @@ module Naujoks.Vollibro.Application {
             Services.MockHttpApis.setupMockHttpDelay($provide);
         };
         
-        
-        
-        $translateProvider.translations("en",{"TEST": "bla"});
-        $translateProvider.preferredLanguage("en");
+        $translateProvider.useSanitizeValueStrategy('sanitize');
+        $translateProvider.useStaticFilesLoader({
+            prefix: 'js/i18n/locale-',
+            suffix: '.json'
+        });
+        $translateProvider.preferredLanguage("de");
     
     };
 
