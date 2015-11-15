@@ -4,7 +4,7 @@
 
         <ion-nav-bar class="bar-positive nav-title-slide-ios">
             <ion-nav-back-button class="button-clear nav-back-button">
-                <i class="ion-ios-arrow-back"></i> Back
+                <i class="ion-ios-arrow-back"></i>
             </ion-nav-back-button>
         </ion-nav-bar>
 
@@ -19,24 +19,17 @@
 
             <ion-list>
 
-                <ion-item class="item-divider">Categories</ion-item>
-
                 <ion-item ng-repeat="category in viewModel.categories"
                           class="item menu-close item-icon-left" href="{{category.href}}">
                     <i class="icon ion-{{category.icon}}"></i>
                     {{category.name}}
                 </ion-item>
 
-                <ion-item class="item-divider">Preferences</ion-item>
-
-                <ion-item class="item-icon-left menu-close" ng-click="controller.reorder_click()">
-                    <i class="icon ion-shuffle"></i>
-                    Reorder Categories
-                </ion-item>
+                <ion-item class="item-divider" translate="OPTIONS"></ion-item>
 
                 <ion-item class="item-icon-left menu-close" ui-sref="app.settings-list">
                     <i class="icon ion-android-settings"></i>
-                    Settings
+                    {{"SETTINGS" | translate}}
                 </ion-item>
 
             </ion-list>

@@ -128,7 +128,7 @@ module Naujoks.Vollibro.Services {
         }
 
         get hasCompletedOnboarding(): boolean {
-            return localStorage.getItem(Configuration.HAS_COMPLETED_ONBOARDING) === "true";
+            return true;//localStorage.getItem(Configuration.HAS_COMPLETED_ONBOARDING) === "true";
         }
 
         set hasCompletedOnboarding(value: boolean) {
